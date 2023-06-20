@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;700;800&display=swap');
+@import './mixins';
+@import './variables';
+@import '~bootstrap/scss/bootstrap';
+@import './loading';
+
+html,
+body,
+#__next,
+.PageWrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body {
+  background-color: $black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(#{$assetPath}/bg.jpg);
+}
+
+.PageWrapper {
+  width: 100%;
+  background-color: rgba($color: $black, $alpha: 0.15);
+}
+
+.Footer {
+
+  &-Credit {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+  }
+}
