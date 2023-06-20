@@ -51455,7 +51455,7 @@ var languages = [{
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!**************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5CNext%5Cgoogle-books%5Cpages%5Cindex.js ***!
   \**************************************************************************************************************/
@@ -51478,5 +51478,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
