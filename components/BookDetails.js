@@ -40,7 +40,7 @@ const BookDetails = ( props ) => {
       {
         !isEmpty(props.data) ?
           <Row>
-            <Col md="3">
+            <Col md="3" sm="12">
               <Image src={imageLink !== undefined ? imageLink : './static/empty-cover.jpeg'} thumbnail />
               <BookRating rating={averageRating} count={ratingsCount} />
             </Col>
