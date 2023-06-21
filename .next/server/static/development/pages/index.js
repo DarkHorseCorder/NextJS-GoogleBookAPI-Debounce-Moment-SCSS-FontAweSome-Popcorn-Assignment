@@ -949,7 +949,7 @@ const SearchBar = props => {
       columnNumber: 5
     }
   }, __jsx("div", {
-    className: "d-flex",
+    className: "PrimarySearch-Bar d-flex",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,

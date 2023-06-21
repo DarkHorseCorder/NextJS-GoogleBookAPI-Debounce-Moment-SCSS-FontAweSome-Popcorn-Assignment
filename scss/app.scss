@@ -37,9 +37,16 @@ body {
 .PrimarySearch {
   position: relative;
   margin: 30px 0;
-  .dflex {
-    display: flex;
+  &-Bar {
+    background-color: rgba(0,0,0,.65);
+    border-radius: 10px;
+    padding: 10px;
+
+    div {
+      padding-top: 5px;
+    }
   }
+
   a {
     padding-top: 10px;
   }
@@ -57,7 +64,7 @@ body {
       width: 18px;
       color: $gray-400;
       position: absolute;
-      top: 10px;
+      top: 20px;
     }
 
     &__ListIcon {

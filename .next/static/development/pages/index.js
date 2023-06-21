@@ -847,7 +847,7 @@ var SearchBar = function SearchBar(props) {
       columnNumber: 5
     }
   }, __jsx("div", {
-    className: "d-flex",
+    className: "PrimarySearch-Bar d-flex",
     __self: _this,
     __source: {
       fileName: _jsxFileName,

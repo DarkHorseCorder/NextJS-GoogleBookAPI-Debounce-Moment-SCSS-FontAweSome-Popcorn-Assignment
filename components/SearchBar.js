@@ -21,7 +21,7 @@ const SearchBar = (props) => {
 
   return (
     <div className="PrimarySearch">
-      <div className="d-flex">
+      <div className="PrimarySearch-Bar d-flex">
         <FontAwesomeIcon icon={faSearch} className="form-control__Icon" />
         <DebounceInput
           minLength={3}

@@ -2772,7 +2772,7 @@ function doRender(_ref5) {
           appProps: appProps
         });
         elem = _react["default"].createElement(AppContainer, null, _react["default"].createElement(App, appProps)); // We catch runtime errors using componentDidCatch which will trigger renderError
-        renderReactElement( false ? undefined : elem, appElement);
+        renderReactElement( true ? _react["default"].createElement(_react["default"].StrictMode, null, elem) : undefined, appElement);
         emitter.emit('after-reactdom-render', {
           Component: Component,
           ErrorComponent: ErrorComponent,
